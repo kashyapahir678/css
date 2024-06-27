@@ -609,3 +609,53 @@
 /* .first_card:hover .hover_border{
     opacity: 1;
 } */
+
+/* ------------------------reviews section  */
+
+.Reviews-section{
+    margin-bottom: 200px;
+}
+
+
+.reviews_images{
+    background-image: url("https://megaone.acrothemes.com/film/img/test1.jpg");
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    /* top: 0; */
+}
+
+.item_container{
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    height: 300px;
+    width: 500px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    padding: 40px;
+}
+
+.reviews_text{
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: black;
+    opacity: .9;
+    margin-bottom: 25px;
+}
+
+.reviews_date{
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    text-align: center;
+    color: black;
+    opacity: .9;
+}
