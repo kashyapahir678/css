@@ -1,0 +1,42 @@
+
+/* media query  */
+
+/* 
+320px
+576px
+768px
+992px
+1024px
+1200px 
+*/
+
+/* header section  */
+
+@media (max-width: 1200px){
+    
+}
+
+@media (max-width: 1024px){
+
+    .mobile_menu{
+        display: block;
+        font-size: 22px;
+        margin-left: 20px;
+    }
+
+    .navbar-list{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+  
+}
+
+@media (max-width: 576px){
+    
+}
+
+@media (max-width: 320px){
+    
+}

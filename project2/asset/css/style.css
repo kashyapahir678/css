@@ -1,0 +1,58 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ol,ul{
+    list-style-type: none;
+}
+
+/* header section  */
+
+.container{
+    max-width: calc(100vw - 10vw);
+    margin: 0px auto;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.navbar-list nav ul{
+    display: flex;
+}
+
+.navbar-list nav ul li a{
+    padding: 20px 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.navbar-select select{
+    border: none;
+}
+
+.navbar-select{
+    display: flex;
+}
+
+.mobile_menu{
+    display: none;
+}
