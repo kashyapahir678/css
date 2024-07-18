@@ -1,5 +1,3 @@
-
-
 /* sandbox start */
 
 *{
@@ -46,8 +44,8 @@ ol , ul{
 }
 
 .nav-items nav ul li a{
-    padding:20px 30px;
-    font-size: 20px;
+    padding:20px 18px;
+    font-size: 18px;
     font-weight: bold;
     color:rgba(0, 0, 0, 0.807)
 }
@@ -114,22 +112,26 @@ ol , ul{
 /* service section start  */
 
 .service{
-    margin-bottom: 120px;
+    padding: 3rem .5rem;
     max-width: 1400px;
 }
 
 .service_title{
     text-align: center;
+    margin: auto;
+    max-width: 500px;
 }
 
 .service_title h2{
     color: #aab0bc;
     font-size: 16px;
+    margin-bottom: 10px;
 }
 
 .service_title h3{
-    font-size: 36px;
+    font-size: 30px;
     color: #343f52;
+    margin-bottom: 30px;
 }
 
 .service_card{
@@ -141,157 +143,37 @@ ol , ul{
 }
 
 .service_card div{
-    box-shadow: 1px 2px 2px black;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.36);
     padding: 40px;
+    border-color: rgba(164, 174, 198, 0.2);
+    border-radius: 10px;
     text-align: center;
     line-height: 26px;
     max-width: 350px;
 }
 
-.service_card div h4{
-    font-size: 20px;
-    color: #343f52;
-}
-
-.service_card div p{
-    color: #60697b;
-    font-size: 17px;
-}
-
-.service_card div a{
-    font-weight: 600;
-}
-/* header section  */
-
-.container{
-    max-width: calc(100vw - 10vw);
-    margin: 0px auto;
-}
-
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px 0px;
-}
-
-.navbar-list nav ul{
-    display: flex;
-}
-
-.navbar-list nav ul li a{
-    padding: 20px 20px;
-    font-weight: 600;
-    color: black;
-}
-
-.navbar-select select{
-    border: none;
-}
-
-.navbar-select{
-    display: flex;
-}
-
-.mobile_menu{
-    display: none;
-}
-
-
-/* <!-- Hero Section Start --> */
-
-.grow{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 1400px;
-    padding: 3rem 1rem;
-}
-
-.grow_image{
-    max-width: 800px;
-}
-
-.grow img{
-    max-width: 100%;
+.service_card div img{
+    max-width: 50px;
     height: auto;
-}
-
-.grow_text{
-    max-width: 600px;
-}
-
-.grow_text h1{
-    font-size: 50px;
-    line-height: 58px;
-    color: #343f52;
-    margin-bottom: 25px;
-}
-
-.grow_text p{
-    color: #60697b;
-    margin-bottom: 25px;
-    font-size: 22px;
-    line-height: 36px;
-}
-
-.grow_text button{
-    background-color: #fab758;
-    color: #ffffff;
-    line-height: 29px;
-    padding: 10px 24px;
-    border-radius: 25px;
-    border: none;
-    font-weight: 700;
-}
-
-/* service section start  */
-
-.service{
-    margin-bottom: 120px;
-    max-width: 1400px;
-}
-
-.service_title{
-    text-align: center;
-}
-
-.service_title h2{
-    color: #aab0bc;
-    font-size: 16px;
-}
-
-.service_title h3{
-    font-size: 36px;
-    color: #343f52;
-}
-
-.service_card{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-}
-
-.service_card div{
-    box-shadow: 1px 2px 2px black;
-    padding: 40px;
-    text-align: center;
-    line-height: 26px;
-    max-width: 350px;
+    margin-bottom: .8rem;
 }
 
 .service_card div h4{
     font-size: 20px;
+    margin-bottom: .8rem;
     color: #343f52;
 }
 
 .service_card div p{
     color: #60697b;
     font-size: 17px;
+    margin-bottom: .8rem;
 }
 
 .service_card div a{
     font-weight: 600;
+}
+
+.service_card div a span{
+    font-size: 12px;
 }
