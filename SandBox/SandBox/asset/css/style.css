@@ -8,6 +8,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Roboto", sans-serif;
+    background-color: #FFF8EE;
 }
 
 h1,h2,h3,h4,h5,h6,p{
@@ -114,12 +115,15 @@ ol , ul{
 
 /* service section start  */
 
+.service_section{
+    background-color: #fff;
+}
+
 .service{
     padding: 3rem .5rem;
     max-width: 1400px;
     display: block;
     margin: auto;
-
 }
 
 .service_title{
@@ -149,7 +153,8 @@ ol , ul{
 }
 
 .service_card div{
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.36);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #fff;
     padding: 40px;
     border-color: rgba(164, 174, 198, 0.2);
     border-radius: 10px;
@@ -183,3 +188,120 @@ ol , ul{
 .service_card div a span{
     font-size: 12px;
 }
+
+
+/* analyze section  */
+
+.analyze_section{
+    background-color: #fff;
+}
+
+.analyze{
+    display: flex;
+    padding: 4rem 15px;
+}
+
+.analyze_text{
+    max-width: 600px;
+    padding: 0px 20px;
+}
+
+.hero_head{
+    color: #aab0bc;
+    font-size: 16px;
+    margin-bottom: .8rem;
+}
+
+.hero_heading{
+    font-size: 38px;
+    line-height: 47px;
+    margin-bottom: 1.2rem;
+    color: #343f52;
+}
+
+.hero_text{
+    line-height: 28px;
+    color: #60697b;
+    margin-bottom: 1.8rem;
+}
+
+.analyze_text input{
+    border-radius: 8px 0px 0px 8px;
+}
+
+.analyze_text button{
+    color: #ffff;
+    background-color: #fab758;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.analyze_image{
+    max-width: 800px;
+    padding: 0px 20px;
+    order: 1;
+}
+
+.analyze_image img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* strategy section */
+
+.strategy_section{
+    background-color: #fff;
+    margin-bottom: 100px ; 
+}
+
+.strategy{
+    display: flex;
+    padding: 3rem .5rem;
+    max-width: 1400px;
+}
+
+.hero_btn{
+    font-size: 17px;
+    padding: 12px 24px;
+    background-color: #fab758;
+    color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    font-weight: 700;
+}
+
+.strategy_text{
+    width: 50%;
+    padding: 0px 30px;
+    flex-grow: 1;
+}
+
+.strategy_card{
+    width: 50%;
+    padding: 0px 30px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card_items{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 1.5rem;
+    display: flex;
+    max-width: 500px;
+}
+
+.card_items2{
+    margin-left: 5rem;
+}
+
+.card_items3{
+    margin-left: 3rem;
+}
+
+.str_card_text{
+    display: flex;
+    flex-direction: column;
+}
+
