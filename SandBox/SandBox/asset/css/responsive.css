@@ -21,6 +21,9 @@
     .service_card div {
         max-width: 600px;
     }
+    .our_card{
+        grid-template-columns: 1fr 1fr;
+    }
 
 }
 
@@ -88,6 +91,13 @@
         max-width: calc(100vw - 100px);
     }
 
+    .choose{
+        flex-wrap: wrap;
+    }
+    .choose_text{
+        margin-top: 50px;
+    }
+
 
 }
 
@@ -100,10 +110,21 @@
     .service_card div {
         max-width: 500px;
     }
+    .our_card{
+        grid-template-columns: auto;
+    }
+    .our_text h3{
+        font-size: 1.7rem;
+    }
+
 }
 
 @media (max-width:576px) {
     .grow_text h1 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .hero_heading{
         font-size: 25px;
         line-height: 30px;
     }
@@ -116,6 +137,10 @@
         padding: 0px;
     }
 
+    .analyze_input{
+        justify-content: center;
+    }
+
     .analyze_text h3 {
         line-height: 28px;
     }
@@ -125,6 +150,10 @@
   {
         padding: 0px;
     }
+    .choose div{
+        padding: 0px;
+    }
+
 }
 
 @media (max-width:320px) {}
