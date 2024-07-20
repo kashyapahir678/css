@@ -98,6 +98,19 @@
         margin-top: 50px;
     }
 
+    .solution{
+        flex-direction: column;
+    }
+    .solution_img{
+        order: 1;
+    }
+    .solution_text{
+        order: 2;
+        margin-top: 50px;
+    }
+    .solution_text2{
+        flex-direction: column;
+    }
 
 }
 

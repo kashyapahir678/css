@@ -469,3 +469,43 @@ ul {
     margin-right: 20px;
     color: black;
 }
+
+/* ---------------solution section */
+
+.solution{
+    display: flex;
+    justify-content: center;
+}
+
+.solution_img{
+    max-width: 800px;
+}
+
+.solution_text{
+    max-width: 600px;
+}
+
+.solution_text2{
+    display: flex;
+}
+
+.solution_text2 div{
+    padding-bottom: 5px;
+}
+
+.s_texts{
+    display: flex;
+}
+
+.s_texts div i{
+   padding: 2px 5px;
+   background-color: #fab65840;
+   color: #fab758;
+   border-radius: 50%;
+   margin-right: 10px;
+}
+
+.solution_img img{
+    max-width: 100%;
+    height: auto;
+}
