@@ -11,7 +11,14 @@
 1399px
 */
 
-@media (max-width:1399px) {}
+@media (max-width:1399px) {
+    .comm_child_div{
+        padding: 30px;
+    }
+    /* .footer_heading h3{
+        max-width: 700px;
+    } */
+}
 
 @media (max-width:1199px) {
     .service_card {
@@ -23,6 +30,19 @@
     }
     .our_card{
         grid-template-columns: 1fr 1fr;
+    }
+    .comm_child_div{
+        padding: 25px;
+    }
+    .community_card{
+        max-width: 1000px;
+    }
+    .community_text{
+        max-width: 400px;
+        padding: 0px 20px;
+    }
+    .comm_child_div p{
+        line-height: 25px;
     }
 
 }
@@ -111,6 +131,33 @@
     .solution_text2{
         flex-direction: column;
     }
+    .community{
+        flex-direction: column;
+    }
+    .comm_child_div{
+        padding: 40px;
+    }
+    .comm_child_div p{
+        line-height: 30px;
+    }
+    .community_text{
+        max-width: 800px;
+    }
+    .talk{
+        flex-wrap: wrap;
+    }
+    .talk_text, .talk_img{
+        margin-top: 50px;
+    }
+    .footer_heading{
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer_heading h3{
+        max-width: none;
+        font-size: calc(6vw - 18px);
+        margin-bottom: 20px;
+    }
 
 }
 
@@ -128,6 +175,15 @@
     }
     .our_text h3{
         font-size: 1.7rem;
+    }
+    .community_child{
+        grid-template-columns: 1fr;
+    }
+    .scroll_logo{
+        flex-wrap: wrap;
+    }
+    .scroll_logo div img{
+        max-height: 25px;
     }
 
 }
@@ -166,6 +222,13 @@
     .choose div{
         padding: 0px;
     }
+    .comm_child_div h5{
+        font-size: 16px;
+    }
+    .talk div{
+        padding: 0px;
+    }
+    
 
 }
 
