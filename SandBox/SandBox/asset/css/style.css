@@ -421,6 +421,7 @@ ul {
 .our_card{
     display: grid;
     gap: 30px;
+    padding: 0px 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
@@ -647,7 +648,7 @@ footer{
 }
 
 .footer_heading h3{
-    font-size: calc(3.5vw - 15px);
+    font-size: 35px;
     line-height: 47px;
     max-width: 600px;
     color: #ffffff;
@@ -662,4 +663,87 @@ footer{
     border-radius: 25px;
     border: none;
     font-weight: 700; 
+}
+
+.footer_items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer_sec{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.footer_sec h4{
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 29px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.footer_sec img{
+    max-width: inherit;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.footer_sec nav{
+    width: 50%;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.footer_sec a{
+    color: #cacaca;;
+    font-weight: 500;
+}
+
+.footer_sec p{
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.footer_items ul{
+    margin: 0px;
+}
+.footer_items ul li{
+    margin-bottom: 15px;
+}
+
+.footer_sec address{
+    padding-right: 10rem;
+    line-height: 28px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.footer_input{
+    display: flex;
+}
+
+.footer_input input{
+    background-color: transparent;
+    border: 1px solid #60697b80;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.footer_input input:focus{
+    outline: none;
+    border: 1px solid #fab758;
+}
+
+.footer_input button{
+    padding: .7rem 1.2rem;
+    border: none;
+    background-color: #fab758;
+    color: #ffffff;
+    border-bottom-right-radius: 5px;
+    font-weight: 600;
+    border-top-right-radius: 5px;
 }

@@ -15,9 +15,9 @@
     .comm_child_div{
         padding: 30px;
     }
-    /* .footer_heading h3{
-        max-width: 700px;
-    } */
+    .footer_sec address{
+        padding-right: 8rem;
+    }
 }
 
 @media (max-width:1199px) {
@@ -43,6 +43,9 @@
     }
     .comm_child_div p{
         line-height: 25px;
+    }
+    .footer_sec address{
+        padding-right: 2rem;
     }
 
 }
@@ -155,8 +158,15 @@
     }
     .footer_heading h3{
         max-width: none;
-        font-size: calc(6vw - 18px);
+        font-size: 30px;
         margin-bottom: 20px;
+    }
+
+    .footer_items{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .footer_mob{
+        grid-column: 1 / 4;
     }
 
 }
@@ -184,6 +194,9 @@
     }
     .scroll_logo div img{
         max-height: 25px;
+    }
+    .footer_mob1{
+        grid-column: 1/4;
     }
 
 }
